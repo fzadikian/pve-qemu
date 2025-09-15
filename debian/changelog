@@ -1,3 +1,9 @@
+pve-qemu-kvm (10.0.2-5) trixie; urgency=medium
+
+  * display/graphics integration
+
+ -- Francisco Zadikian <admin@gnlug.org>  Wed, 10 Sep 2025 21:42:00 -0300
+
 pve-qemu-kvm (10.0.2-4) trixie; urgency=medium
 
   * savevm-async: reuse migration blocker check for snapshots/hibernation to
