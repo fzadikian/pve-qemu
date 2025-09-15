@@ -1,3 +1,4 @@
 [submodule "qemu"]
 	path = qemu
-	url = ../mirror_qemu
+	url = https://gitlab.com/qemu-project/qemu.git
+	branch = v10.0.4
