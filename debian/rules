@@ -50,12 +50,12 @@ endif
 	    --datadir=/usr/share \
 	    --libexecdir=/usr/lib/kvm \
 	    --disable-capstone \
-	    --disable-gtk \
+	    --enable-gtk \
 	    --disable-guest-agent \
 	    --disable-guest-agent-msi \
 	    --disable-libnfs \
 	    --disable-libssh \
-	    --disable-sdl \
+	    --enable-sdl \
 	    --disable-smartcard \
 	    --disable-strip \
 	    --disable-xen \
@@ -74,6 +74,7 @@ endif
 	    --enable-spice \
 	    --enable-usb-redir \
 	    --enable-virglrenderer \
+	    --enable-rutabaga-gfx \
 	    --enable-virtfs \
 	    --enable-zstd
 
@@ -154,7 +155,7 @@ binary-arch: build install
 	dh_installdeb
 	# Debian >= Buster has libglusterfs0 and lots of libgfFOO, upstream has the libs in glusterfs-common
 	# pass -x to dpkg-shlibdeps and specify dependencies in d/control instead
-	dh_shlibdeps -- -xlibglusterfs0 -xlibgfxdr0 -xlibgfrpc0 -xlibgfdb0 -xlibgfchangelog0 -xlibgfapi0
+	dh_shlibdeps -- -xlibglusterfs0 -xlibgfxdr0 -xlibgfrpc0 -xlibgfdb0 -xlibgfchangelog0 -xlibgfapi0 --ignore-missing-info
 	dh_gencontrol
 	dh_md5sums
 	dh_builddeb
