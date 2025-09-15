@@ -1,3 +1,9 @@
+pve-qemu-kvm (10.0.4-1) trixie; urgency=medium
+
+  * bump upstream version
+
+ -- Francisco Zadikian <admin@gnlug.org>  Mon, 15 Sep 2025 18:04:18 -0300
+
 pve-qemu-kvm (10.0.2-6) trixie; urgency=medium
 
   * rutabaga_gfx integration
