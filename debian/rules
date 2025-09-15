@@ -50,12 +50,12 @@ endif
 	    --datadir=/usr/share \
 	    --libexecdir=/usr/lib/kvm \
 	    --disable-capstone \
-	    --disable-gtk \
+	    --enable-gtk \
 	    --disable-guest-agent \
 	    --disable-guest-agent-msi \
 	    --disable-libnfs \
 	    --disable-libssh \
-	    --disable-sdl \
+	    --enable-sdl \
 	    --disable-smartcard \
 	    --disable-strip \
 	    --disable-xen \

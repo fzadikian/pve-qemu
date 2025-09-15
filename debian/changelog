@@ -1,3 +1,9 @@
+pve-qemu-kvm (10.1.2-6) trixie; urgency=medium
+
+  * display/graphics integration
+
+ -- Francisco Zadikian <admin@gnlug.org>  Wed, 14 Jan 2026 20:00:00 -0300
+
 pve-qemu-kvm (10.1.2-5) trixie; urgency=medium
 
   * cherry-pick fix for io_uring issue to unbreak backup with TPM disk

@@ -41,6 +41,7 @@ Build-Depends: debhelper-compat (= 13),
                quilt,
                uuid-dev,
                xfslibs-dev,
+               libgtk-3-dev,
 Standards-Version: 3.7.2
 
 Package: pve-qemu-kvm
