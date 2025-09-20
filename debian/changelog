@@ -1,3 +1,9 @@
+pve-qemu-kvm (10.0.4-2) trixie; urgency=medium
+
+  * Remove rutabaga_gfx integration
+
+ -- Francisco <fran@psyduck>  Sat, 20 Sep 2025 13:22:01 -0300
+
 pve-qemu-kvm (10.0.4-1) trixie; urgency=medium
 
   * bump upstream version
